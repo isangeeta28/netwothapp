@@ -162,7 +162,7 @@ class _HomeScreenState extends State<HomeScreen>with TickerProviderStateMixin {
                 SizedBox(height: 30,),
                 mojekmonneylistview(),
                 SizedBox(height: 35,),
-                Center(child: Image.asset("assets/images/Save Invest Grow!.png")),
+                Center(child: Image.asset("assets/images/Save Invest Grow.png")),
                 SizedBox(height: 35,),
                 Container(
                   height: 60,
