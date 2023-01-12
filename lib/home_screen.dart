@@ -926,7 +926,7 @@ class _HomeScreenState extends State<HomeScreen>with TickerProviderStateMixin {
 class ATMCardUI extends StatelessWidget {
 
   String get getCardPan {
-    return ("1234567890181234").replaceAllMapped(
+    return ("123456789018123455").replaceAllMapped(
         RegExp(r".{4}"), (match) => "${match.group(0)}       ");
   }
 
